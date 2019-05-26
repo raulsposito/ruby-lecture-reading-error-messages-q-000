@@ -1,5 +1,5 @@
 "hello world"
-context 
+context 'name error'
 expect{
         load './lib/a_name_error.rb'
       }.to_not raise_error
