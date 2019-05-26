@@ -1,3 +1,5 @@
 "hello world"
 
-load './lib/a_name_error.rb'
+expect{
+        load './lib/a_name_error.rb'
+      }.to_not raise_error
